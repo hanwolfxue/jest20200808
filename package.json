@@ -4,7 +4,7 @@
   "description": "jest入门第一课",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
     "@types/jest": "^26.0.9",
     "babel-jest": "^26.2.2",
     "jest": "^26.2.2"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
   }
 }
