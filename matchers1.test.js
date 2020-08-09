@@ -17,5 +17,5 @@ test('toThrow', () => {
   const throwNewErrorFunc = () => {
       throw new Error('this is a new error');
   }
- expect(throwNewErrorFunc).toThrow(/this is a new/); 
+ expect(throwNewErrorFunc).toThrow(/this is a new error/); 
 });
